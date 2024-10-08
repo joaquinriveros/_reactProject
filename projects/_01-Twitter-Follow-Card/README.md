@@ -40,17 +40,25 @@ Asegúrate de tener instalados los siguientes elementos antes de iniciar el proy
 
 # Estructura del Proyecto
 ```
-/src
-  /components
-    TwitterFollowCard.jsx    # Componente principal de la tarjeta en JSX
-  /assets
-    styles.css               # Estilos de la tarjeta
-  /data
-    users.json               # Datos JSON de usuarios
-  App.jsx                    # Punto de entrada de React en JSX
-  main.jsx                   # Configuración de React con Vite
-index.html                   # Estructura HTML principal
-vite.config.js               # Configuración de Vite
+/_01-Twitter-Follow-Card
+  /public
+    vite.svg                   # Logo de Vite
+  
+  /src
+    App.css                    # Estilos generales de la aplicación
+    App.jsx                    # Componente principal de la aplicación en JSX
+    TwitterFollowCard.jsx       # Componente de la tarjeta de Twitter en JSX
+    index.css                  # Estilos globales
+    main.jsx                   # Configuración y punto de entrada de React con Vite
+  
+  .gitignore                   # Archivos y carpetas que Git debe ignorar
+  README.md                    # Documentación del proyecto
+  eslint.config.js             # Configuración de ESLint para el proyecto
+  index.html                   # Estructura HTML principal
+  package.json                 # Configuración del proyecto y dependencias
+  package-lock.json            # Versiones exactas de las dependencias instaladas
+  vite.config.js               # Configuración de Vite
+
 ```
 # Uso
 
